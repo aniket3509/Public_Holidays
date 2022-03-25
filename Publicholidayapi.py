@@ -1,11 +1,8 @@
-from this import d
 import pandas as pd
 import datetime
 
 from flask import *
 import json, time
-
-from pyrsistent import b
 
 app = Flask(__name__)
 
